@@ -1,0 +1,24 @@
+{
+  "name": "agenda-telefonica-backend",
+  "version": "1.0.0",
+  "description": "Agenda telefonica del lado del servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon src/index"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "morgan"
+  ],
+  "author": "Cesar Guevara Cabrera",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
